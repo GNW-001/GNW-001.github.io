@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Advent Pro');
+@import url('https://fonts.googleapis.com/css?family=Didact Gothic');
+    
+header{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: #eeeeee;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+body {
+	padding: 0;
+	font-family: 'Advent Pro', 'Didact Gothic', sans-serif;
+	font-size: 16px;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    background-image: url("/assets/background.jpg");
+    color: #eeeeee;
+    padding-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: minmax(200px, 250px) minmax(380px, 0.8fr);
+    grid-gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    align-content: center;
+}
+
+.grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 2
+}
+
+#mainContent {
+    background-color: rgba(0,0,0,0.6);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#sidebar{
+    border-left: 25px;
+    border: 20px;
+    background-color: rgba(0,0,0,0.7);
+    width: auto;
+    margin: 20px 10px 50px 10x;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    align-content: center;
+}
+
+.title {
+    margin: 15px auto 20px auto;
+    border-style: solid;
+    padding-left: 200px;
+    padding-right: 200px
+}
+
+.portrait {
+    text-align: center;
+    margin: 25px 15px 35px 15px;
+    flex-wrap: wrap;
+}
+
+#sidebar h2{
+    margin-left: 10px;
+}
+
+.left {
+    float: left;
+    display:inline-block;
+    width: 100px;
+}
+
+.leftSide {
+    float: left;
+    display:inline-block;
+    width: 30px;
+}
+
+
+.right {
+    display:inline-block;
+}
+
+.rightSide {
+    display:inline-block;
+}
+
+#sidebar p{
+    display: inline-block;
+}
+
+.work h2 {
+    text-transform: uppercase;
+}
+
+.work {
+    border-bottom-style: solid;
+}
+
+.education {
+    border-bottom-style: solid;
+}
+
+.bio {
+    border-bottom-style: solid;
+}
+
+.work {
+    border-bottom-style: solid;
+}
+
+.education h2 {
+    text-transform: uppercase;
+}
+
+.list h2 {
+    text-transform: uppercase;
+}
+
+.list {
+    padding-bottom: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 0px;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle;
+}
+
+.padLeft {
+    padding-left: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #eeeeee
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+   }
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
